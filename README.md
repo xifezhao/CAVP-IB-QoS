@@ -1,4 +1,3 @@
-```markdown
 # Network QoS Simulation with CAVP-IB-QoS and Other Algorithms
 
 This repository contains a Python simulation for evaluating different Quality of Service (QoS) algorithms in a network, including a novel algorithm called CAVP-IB-QoS (Congestion-Aware, Variable-Priority, Intent-Based QoS), Weighted Fair Queueing (WFQ), Priority Queueing, and Static Allocation.  The simulation focuses on dynamic network conditions, including varying traffic arrival patterns, changing bandwidth requirements, and flow burstiness.
@@ -186,24 +185,3 @@ Contributions such as bug fixes, improvements to the algorithms, new visualizati
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details (you'll need to create a LICENSE file and put the MIT license text in it).  If you don't create a LICENSE file, you should at least state the license clearly in the README.
-```
-
-**Key improvements and explanations in this README:**
-
-*   **Clear and Concise Introduction:**  Explains the purpose of the simulation and highlights the novel CAVP-IB-QoS algorithm.
-*   **Detailed Algorithm Descriptions:**  Provides clear explanations of each algorithm, including the key differences and how they handle routing and bandwidth allocation.
-*   **Comprehensive Simulation Setup:**  Explains the flow generation, intent generation, policy execution, and metrics calculation steps.  Also explains the different arrival patterns.
-*   **Well-Defined Network Model:**  Clearly describes the network representation and the functions of the `Network` class.
-*   **Thorough Flow and Intent Representation:**  Explains the attributes of the `Flow` and `Intent` classes and their significance.
-*   **Clear Instructions on Running the Simulation:** Explains how the simulation is run and how the results are generated.
-*   **Detailed Results and Visualization Section:**  Lists the output files (CSV and PDF) and describes the generated plots.
-*   **Dependencies:** Lists the required Python libraries and provides instructions for installing them.
-*   **Configuration:** Explains the simulation parameters and how to modify them.
-*   **File Structure:** Describes the organization of the project files.
-*   **How to Contribute:** Provides guidelines for contributing to the project.
-*   **License:** Specifies the license under which the project is released (crucial for open-source projects).
-*   **Table of Contents:** Makes the README easier to navigate.
-*   **Code Snippets:** Includes a small code snippet to show how the main simulation loop is structured.
-* **Markdown Formatting:** Uses Markdown effectively for readability and organization, including headings, lists, code blocks, and links.
-
-This comprehensive README provides all the necessary information for someone to understand, run, and contribute to the network QoS simulation project. It's well-organized, clearly written, and covers all the essential aspects of the project.  It also explains *why* things are done the way they are, which is important for understanding the code.
