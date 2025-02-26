@@ -800,18 +800,6 @@ for link in [
     plt.show()
     plt.close()
 
-# (You can add more visualization charts, such as comparing intent fulfillment rates for different algorithms, link utilization for different links, etc.)
-# (You can also create heatmaps to show differences in link utilization, but due to the topology change, the interpretation of the heatmap needs to be adjusted accordingly)
-
-# Example: Print quantitative comparison results, this part is moved before visualization, because visualization needs to use the calculated quantitative results
-# print("\n--- Quantitative Comparison (Example - Uniform Arrival) ---")
-# for algorithm_name in ALGORITHM_NAMES:
-#     df = combined_results[algorithm_name]['uniform']
-#     avg_latency = df['avg_latency'].mean()
-#     intent_fulfillment = df['intent_fulfillment'].mean()
-#     print(f"{algorithm_name}: Avg. Latency = {avg_latency:.2f} ms, Intent Fulfillment = {intent_fulfillment:.2f}")
-
-
 
 # --- Configuration Information ---
 config = {
